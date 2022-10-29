@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Форма подачи на работу!</title>
+
+	<link rel="stylesheet" href="style.css">
+
+
+</head>
+
+<body>
+
+	<section class="work-form">
+		<div class="container">
+			<h1 class="work-form__title">
+				Форма заявки на работу!
+			</h1>
+
+			<p class="work-form__text">
+				Заполните форму. Обьязательные поля помечены <span>*</span>
+			</p>
+
+			<form>
+				<fieldset>
+					<legend>Контактная информация</legend>
+
+					<div class="work-form__container">
+						<label for="first-name">Имя <span>*</span></label>
+						<input type="text" id="first-name" name="first-name" placeholder="Вася">
+					</div>
+
+					<div class="work-form__container">
+						<label for="second-name">Фамилия<span>*</span></label>
+						<input type="text" id="second-name" name="second-name" placeholder="Иванов">
+					</div>
+
+					<div class="work-form__container">
+						<label for="user-number">Телефон</label>
+						<input type="tel" id="user-number" name="user-number" placeholder="+372555555">
+					</div>
+
+					<div class="work-form__container">
+						<label for="user-email">Э-мэйл<span>*</span></label>
+						<input type="email" id="user-email" name="user-email" placeholder="bambucha@gggmjau.com">
+					</div>
+				</fieldset>
+
+				<fieldset>
+					<legend>Персональная Инф</legend>
+
+					<div class="work-form__container">
+						<label for="age">Возраст <span>*</span></label>
+						<input type="number" id="age" name="age" placeholder="18" min="18">
+					</div>
+
+					<div class="work-form__container">
+						<div class="work-form__wrapper">
+							<label>Пол</label>
+							<label class="sr-only" for="user-woman">Жен</label>
+							<label class="sr-only" for="user-woman">Муж</label>
+							<input type="radio" id="user-man" name="user-man"> <span>Mуж</span>
+							<input type="radio" id="user-woman" name="user-woman"> <span>Жен</span>
+						</div>
+
+					</div>
+
+					<div class="work-form__container">
+						<label for="personal-qualities">Личные качества</label>
+						<textarea name="personal-qualities" id="personal-qualities"></textarea>
+					</div>
+				</fieldset>
+
+				<fieldset class="work-experience">
+					<legend>Опыт работы</legend>
+
+					<label for="html"> <span>HTML</span>
+						<input type="checkbox" id="html" name="html">
+					</label>
+
+					<label for="css"> <span>CSS</span>
+						<input type="checkbox" id="css" name="css">
+					</label>
+
+					<label for="js"> <span>JavaScript</span>
+						<input type="checkbox" id="js" name="js">
+					</label>
+
+					<label for="google"> <span>GOOGLE</span>
+						<input type="checkbox" id="google" name="google">
+					</label>
+
+					<label for="opera"> <span>Opera</span>
+						<input type="checkbox" id="opera" name="opera">
+					</label>
+
+					<label for="kavabanga"> <span>Kavabanga</span>
+						<input type="checkbox" id="kavabanga" name="kavabanga">
+					</label>
+
+					<label for="html"> <span>HTML</span>
+						<input type="checkbox" id="html" name="html">
+					</label>
+
+					<label for="css"> <span>CSS</span>
+						<input type="checkbox" id="css" name="css">
+					</label>
+
+					<label for="js"> <span>JavaScript</span>
+						<input type="checkbox" id="js" name="js">
+					</label>
+
+					<label for="google"> <span>GOOGLE</span>
+						<input type="checkbox" id="google" name="google">
+					</label>
+
+					<label for="opera"> <span>Opera</span>
+						<input type="checkbox" id="opera" name="opera">
+					</label>
+
+					<label for="kavabanga"> <span>Kavabanga</span>
+						<input type="checkbox" id="kavabanga" name="kavabanga">
+					</label>
+				</fieldset>
+			</form>
+
+		</div>
+	</section>
+
+</body>
+
+</html>

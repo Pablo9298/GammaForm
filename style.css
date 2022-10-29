@@ -1,0 +1,141 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+.sr-only {
+	position: absolute;
+	width: 1px;
+	height: 1px;
+	padding: 0;
+	margin: -1px;
+	overflow: hidden;
+	clip: rect(0, 0, 0, 0);
+	border: 0;
+}
+
+.container {
+	max-width: 800px;
+	width: 100%;
+	margin: 0 auto;
+	padding: 0 10px;
+}
+
+
+body {
+	background-color: #202124;
+	color: #fff;
+	font-size: 18px;
+	line-height: 1.2;
+}
+
+.work-form__title {
+	font-size: 40px;
+	text-align: center;
+	max-width: fit-content;
+	margin: 20px auto;
+	padding-bottom: 5px;
+	border-bottom: 1px solid #fff;
+}
+
+.work-form__text {
+	font-size: 14px;
+	text-align: center;
+	margin-bottom: 20px;
+	opacity: 0.8;
+}
+
+.work-form__text span {
+	color: #f10707;
+}
+
+form {
+	border: 1px solid #cb5083b8;
+	padding: 30px 0;
+	margin-bottom: 100px;
+	max-width: 75%;
+	margin: 0 auto 50px;
+	box-shadow: -1px -1px 20px 0px #cb5083b8;
+}
+
+fieldset {
+	padding: 20px;
+	max-width: 500px;
+	margin: 0 auto;
+}
+
+legend {
+	font-size: 25px;
+	padding: 0 30px;
+}
+
+.work-form__container {
+	display: flex;
+	justify-content: space-between;
+}
+
+label {
+	max-width: 100px;
+	text-shadow: 5px -2px 6px #cb5083b8;
+}
+
+label span {
+	color: #f10707;
+}
+
+input,
+textarea {
+	width: 70%;
+	margin-bottom: 10px;
+	padding: 5px 10px;
+	border: none;
+	outline: none;
+	box-shadow: 4px -4px 0px 0px #cb5083b8;
+}
+
+textarea {
+	height: 150px;
+	font-size: 18px;
+	resize: vertical;
+}
+
+.work-form__wrapper {
+	display: flex;
+	margin-bottom: 10px;
+}
+
+.work-form__wrapper>label {
+	margin-right: 100px;
+}
+
+.work-form__wrapper>input {
+	box-shadow: none;
+	margin-right: 10px;
+}
+
+.work-form__wrapper>span {
+	margin-right: 30px;
+}
+
+.work-experience {
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+}
+
+.work-experience>label {
+	display: flex;
+	justify-content: space-between;
+	align-items: baseline;
+	max-width: 100px;
+	margin-bottom: 10px;
+}
+
+.work-experience span {
+	color: #fff;
+}
+
+.work-experience>label>input {
+	box-shadow: none;
+	width: 20%;
+}
